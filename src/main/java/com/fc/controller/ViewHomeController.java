@@ -8,6 +8,7 @@ public class ViewHomeController {
 
 	@RequestMapping("/index.htm")
 	public String viewName() {
+		System.out.println("Biswaranjan");
 		return "index";
 		
 	}
